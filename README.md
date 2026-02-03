@@ -12,7 +12,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ✅ Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more
 
-📁 Dataset Overview
+## 📁 Dataset Overview
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
 
 Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility – exactly how real catalog data looks.
@@ -39,7 +39,7 @@ outOfStock: Boolean flag indicating stock availability
 
 quantity: Number of units per package (mixed with grams for loose produce)
 
-🔧 Project Workflow
+## 🔧 Project Workflow
 Here’s a step-by-step breakdown of what we do in this project:
 
 1. Database & Table Creation
@@ -93,4 +93,4 @@ Grouped products based on weight into Low, Medium, and Bulk categories
 
 Measured total inventory weight per product category
 
-💡 Thanks for checking out the project! 
+## 💡 Thanks for checking out the project! 
