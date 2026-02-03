@@ -42,7 +42,7 @@ quantity: Number of units per package (mixed with grams for loose produce)
 ## 🔧 Project Workflow
 Here’s a step-by-step breakdown of what we do in this project:
 
-1. Database & Table Creation
+### 1. Database & Table Creation
 We start by creating a SQL table with appropriate data types:
 
 CREATE TABLE zepto (
@@ -58,7 +58,7 @@ CREATE TABLE zepto (
   quantity INTEGER
 );
 
-2. 🔍 Data Exploration
+### 2. 🔍 Data Exploration
 Counted the total number of records in the dataset
 
 Viewed a sample of the dataset to understand structure and content
@@ -71,12 +71,12 @@ Compared in-stock vs out-of-stock product counts
 
 Detected products present multiple times, representing different SKUs
 
-3. 🧹 Data Cleaning
+### 3. 🧹 Data Cleaning
 Identified and removed rows where MRP or discounted selling price was zero
 
 Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
-4. 📊 Business Insights
+### 4. 📊 Business Insights
 Found top 10 best-value products based on discount percentage
 
 Identified high-MRP products that are currently out of stock
