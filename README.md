@@ -58,9 +58,7 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
-
----
-
+```
 
 ### 2. 🔍 Data Exploration
 Counted the total number of records in the dataset
